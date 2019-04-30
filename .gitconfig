@@ -1,0 +1,21 @@
+[user]
+	email = scrum2@mde.tw
+	name = scrum-2
+[http]
+	proxy = http://mdeuser:mdeuser@140.130.17.7:3128
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = Y:/KDiff3/kdiff3.exe
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = Y:/KDiff3/kdiff3.exe
+[core]
+	editor = \"Y:/GitExtensions/GitExtensions.exe\" fileeditor
